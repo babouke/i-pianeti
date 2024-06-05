@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scopri Marte</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        main {
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #4CAF50;
+        }
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .card {
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 2px 2px 12px rgba(0,0,0,0.1);
+            overflow: hidden;
+            width: calc(33.333% - 20px);
+            margin-bottom: 20px;
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+        .card-body {
+            padding: 15px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Benvenuti su Marte</h1>
+    </header>
+    <main>
+        <h2>Informazioni su Marte</h2>
+        <p>Marte è il quarto pianeta del sistema solare in ordine di distanza dal Sole. Conosciuto anche come il Pianeta Rosso, è oggetto di studio per la possibilità di future missioni umane e la ricerca di vita extraterrestre.</p>
+        <div class="content">
+            <div class="card">
+                <img src="https://mars.nasa.gov/system/news_items/main_images/9386_PIA24824-1280.jpg" alt="Panorama di Marte">
+                <div class="card-body">
+                    <h3>Panorama di Marte</h3>
+                    <p>Un bellissimo panorama della superficie marziana catturato dal rover Perseverance.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://mars.nasa.gov/system/news_items/main_images/9404_PIA25287-web.jpg" alt="Curiosity Rover">
+                <div class="card-body">
+                    <h3>Curiosity Rover</h3>
+                    <p>Il rover Curiosity della NASA esplora Marte dal 2012, fornendo importanti dati sul pianeta.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://mars.nasa.gov/system/news_items/main_images/9430_PIA25681-Mars_Climate_Sounder_1280.jpg" alt="Marte dall'orbita">
+                <div class="card-body">
+                    <h3>Marte dall'orbita</h3>
+                    <p>Una spettacolare vista di Marte dallo spazio, che mostra la sua atmosfera e superficie.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Scopri Marte. Tutti i diritti riservati.</p>
+    </footer>
+</body>
+</html>
